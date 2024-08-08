@@ -21,17 +21,23 @@ body{
     /* background-color: #000000; */
     font-family: Inter;
 }
-.nav-bar, .banner{
+.nav-bar {
     max-width: 1440px;
     margin: 0 auto;
     
+}
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .nav-bar{
     font-family: Inter;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
     padding: 50px 100px 50px 100px;
+    
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
         
 }
@@ -75,6 +81,7 @@ body{
    /* justify-content: space-between; */
    justify-content: left;
    padding: 50px 100px 50px 100px;
+   padding: 70px;
    margin-bottom: 100px;
    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
    
@@ -112,7 +119,7 @@ body{
     background-color: rgb(230, 83, 60);
     border-radius: 40px;
     border: none;
-    padding: 15px 40px;
+    padding: 12px 38px;
     font-size: 1.2rem;
     font-weight: 900px;
     color: rgb(255, 255, 255);
@@ -125,7 +132,7 @@ body{
     border-radius: 40px;
     
     background-color: #101010;
-    padding: 15px 40px;
+    padding: 12px 38px;
     font-size: 1.2rem;
     font-weight: 900px;
     color: rgb(255, 255, 255);
@@ -182,19 +189,28 @@ body{
 /* for phone */
 @media screen and (max-width: 576px) {
 
-/* *padding: 0;     */
+.nav-bar{
+    padding: 20px;
+}
+
 .nav-list{
     display: none;
 }
 .banner{
     flex-direction: column;
     gap: 50px;
+    padding: 20px;
+}
+banner-photo-card-container{
+   margin-left: -100px;
 }
 .btn-container{
     display: flex;
 }
 
-
+.card-2{
+    margin-left: -3px;
+}
 .card-1{
     margin-left: .1px;
     /* margin-right: 500px; */
