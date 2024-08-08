@@ -121,7 +121,7 @@ body{
     background-color: rgb(230, 83, 60);
     border-radius: 40px;
     border: none;
-    padding: 12px 38px;
+    padding: 12px 32px;
     font-size: 1.2rem;
     font-weight: 900px;
     color: rgb(255, 255, 255);
@@ -134,7 +134,7 @@ body{
     border-radius: 40px;
     
     background-color: #101010;
-    padding: 12px 38px;
+    padding: 12px 32px;
     font-size: 1.2rem;
     font-weight: 900px;
     color: rgb(255, 255, 255);
@@ -190,10 +190,12 @@ body{
 
 main{
     background-color: #000000;
+   
 }
 .section-1{
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .habit-hedding{
@@ -218,12 +220,11 @@ main{
 .movments-container{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    gap: 55px;
+    
     justify-items: center;
 }
 .movenent{
-    max-width: 200px;
-    /* background-color: brown; */
+    width: 200px;
     border-radius: 10px;
     
 }
@@ -247,11 +248,58 @@ main{
     text-align: center;
     font-size:0.1 ;
 }
+/* Part-2 style */
+.movement-banner-container{
+    background-color: rgb(34, 34, 34);
+    border-radius: 20px;
+}
 
-
-
-
-
+/* Section-2 style */
+.section-2{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.MB-hedding{
+    /* width: 440px; */
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-bottom: 22px;
+}
+.MB-discription{
+    /* width: 440px; */
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 25px;
+}
+.MB-btn{
+    padding: 12px 48px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+.MB-picture{
+    
+    width: 380px;
+    Object-fit:none;
+    Object-position: 70% 28%;
+    border-radius: 18px;
+    
+    
+   
+}
 
 
 
@@ -299,8 +347,21 @@ banner-photo-card-container{
 
 .movments-container{
     grid-template-columns: repeat(1 , 1fr);
+    gap: 10px;
 }
-
-
-
+.section-2{
+    width: 330px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.MB-btn{
+    padding: 16px 40px;
+    width: 325px;
+}
+.MB-picture{
+    width: 330px;
+    Object-fit:none;
+    Object-position: 67% 28%;
+}
 }
