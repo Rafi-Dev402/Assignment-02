@@ -148,7 +148,6 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     background: blur 20;
     margin-left: 180px;
-    
    
 }
 
@@ -203,10 +202,7 @@ main{
     color: rgb(255, 255, 255);
     font-size: 2.8rem;
     font-weight: 900px;
-    margin-bottom: 10px;
-    
-    
-     
+    margin-bottom: 10px;  
 }
 
 .habit-discription{
@@ -248,11 +244,7 @@ main{
     text-align: center;
     font-size:0.1 ;
 }
-/* Part-2 style */
-.movement-banner-container{
-    background-color: rgb(34, 34, 34);
-    border-radius: 20px;
-}
+
 
 /* Section-2 style */
 .section-2{
@@ -261,6 +253,7 @@ main{
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     padding: 40px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -274,7 +267,7 @@ main{
     margin-bottom: 22px;
 }
 .MB-discription{
-    /* width: 440px; */
+    width: 550px;
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
@@ -289,23 +282,74 @@ main{
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .MB-picture{
     
     width: 380px;
     Object-fit:none;
-    Object-position: 70% 28%;
-    border-radius: 18px;
-    
-    
-   
+    Object-position: 68% 28%;
+    border-radius: 18px; 
 }
 
-
-
-
-
-
+/* Section-3 Style */
+.section-3{
+    max-width: 1440px;
+    margin: 0 auto;
+   
+}
+.calc-hedding{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.calc-disc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 45px;
+    
+    
+}
+/* Section-4 styles */
+.section-4{
+    background-color: rgb(34, 34, 34);
+}
+.BMI-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.BC-hedding{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.BC-disc{
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 100px;
+   
+}
+table{
+    border-collapse: collapse;
+    
+}
+td, th{
+    border: 2px solid  rgba(255, 255, 255, 0.1);
+    padding: 11px 40px 11px 30px;
+    text-align: left;
+}
+th{
+    color: rgb(255, 255, 255);
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -350,18 +394,31 @@ banner-photo-card-container{
     gap: 10px;
 }
 .section-2{
-    width: 330px;
+    width: 300px;
     flex-direction: column;
     gap: 20px;
     padding: 30px;
 }
+.MB-discription{
+    width: 300px;
+}
 .MB-btn{
     padding: 16px 40px;
-    width: 325px;
+    width: 300px;
 }
 .MB-picture{
-    width: 330px;
+    width: 300px;
     Object-fit:none;
     Object-position: 67% 28%;
 }
+
+.calc-hedding,
+.calc-disc
+{
+    text-align: left;
+    padding: 20px;
+}
+
+
+
 }
