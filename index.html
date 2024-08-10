@@ -51,6 +51,7 @@
     </header>
 
     <main>
+        <!-- Section-1 -->
         <section class="section-1">
             
             <h3 class="habit-hedding">Change Your Habits</h3>
@@ -151,8 +152,28 @@
                 <div class="BMI-calc">
                     <h4 class="BC-hedding">Calculate your BMI</h4>
                     <p class="BC-disc">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+
                     <form action="">
+                        <input class="height-weight" type="number" name="height" id="" placeholder="Height/cm">
+                        <input class="height-weight" type="number" name="weight" id="" placeholder="Weight/kg">
                         
+                        <input class="age" type="number" name="age" id="" placeholder="Age">
+                        <select class="gender" name="gender" id="">
+                            <option value="sex">Sex</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Others">Others</option>
+                        </select>
+
+                        <select name="Activities" id="" class="select-2">
+                            <option class="select-2-op" value="0">Select an activity factor</option>
+                            <option class="select-2-op" value="1">Sedentary - Little or no exercise</option>
+                            <option class="select-2-op" value="2">Light - Light exercise/sports 1-3 days per week</option>
+                            <option class="select-2-op" value="3">Moderate - Moderate exercise/sports 3 -5 days per week</option>
+                            <option class="select-2-op" value="4">Very - Hard exercise/sports 6-7 days per week</option>
+                            <option class="select-2-op" value="5">Extra - Extreme hard daily exercise/sports and physical job</option>
+                        </select>
+                        <button class="calc-btn">Calculate</button>
                     </form>
                 </div>
 
