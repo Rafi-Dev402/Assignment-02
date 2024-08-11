@@ -303,7 +303,7 @@ main{
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     
 }
 .calc-disc{
@@ -318,6 +318,7 @@ main{
 /* Section-4 styles */
 .section-4{
     background-color: rgb(34, 34, 34);
+    margin-bottom: 80px;
 }
 .BMI-container{
     max-width: 1440px;
@@ -337,6 +338,7 @@ main{
    
 }
 table{
+    height: 300px;
     border-collapse: collapse;
     
 }
@@ -419,11 +421,7 @@ td{
     margin-top: 12px;
     margin-bottom: 12px; 
 }
-.select-2-op{
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1rem;
-}
+
 .calc-btn{
     padding: 12px 48px;
     background-color: rgb(230, 83, 60);
@@ -438,11 +436,99 @@ td{
     margin-bottom: 50px;
 }
 
+/* Section-5 styles */
+.section-5{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.team-hedding{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+   margin-bottom: 15px;
+}
+.team-disc{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+  
+
+
+/* Footer Styles */
+
+footer{
+   
+    background-color: rgb(24, 24, 24);
+}
+.footer-text-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 5px;
+    justify-items: center;
+    padding: 60px;
+}
+.text1-hedding{
+    font-size: 4.3rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(235, 79, 55);
+    margin-bottom: 20px;
+}
+.text1-desc{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    width: 443px;
+    line-height: 24px;
+}
+.sub-hedding{
+    font-size: 2rem;
+    font-weight: 700px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.sub-desc{
+    font-size: 1.4rem;
+    font-weight: 400px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 18px;  
+}
+hr{
+   border: 1.8px solid rgba(255, 255, 255, 0.1);
+   width: 1258px;
+   margin: auto;
+   
+   
+}
+.last-footer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.ls-footer{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400px;
+   text-align: center;
+   padding: 36px;
+}
+
+
+
+
 
 
 
 /* Media Query */
-/* for phone */
+/* Small Device */
 @media screen and (max-width: 576px) {
 
 .nav-bar{
@@ -507,22 +593,23 @@ banner-photo-card-container{
     padding: 20px;
 }
 .BMI-calc{
-    width: 340px;
+    width: 370px;
 }
 .BC-disc{
-    width: 345px;
+    width: 340px;
 }
+
 .height-weight{
-    width: 123px;
+    width: 125px;
 }
 .age{
-    width: 123px;
+    width: 125px;
 }
 .gender{
-    width: 163px;
+    width: 165px;
 }
 .select-2{
-    width: 343px;
+    width: 345px;
 }
 .calc-btn{
     padding: 18px 65px;
@@ -530,5 +617,22 @@ banner-photo-card-container{
 }
 
 
+
+
+
+
+
+.footer-text-container{
+    padding: 30px;
+    grid-template-columns: repeat(1 , 1fr);
+    justify-items: left;
+}
+.text1-desc{
+    width: 317px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 370px;
+}
 }
 
