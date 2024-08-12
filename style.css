@@ -217,6 +217,7 @@ main{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     justify-items: center;
+    column-gap: 0;
     
 }
 .movenent{
@@ -441,6 +442,7 @@ td{
    max-width: 1440px;
    margin: 0 auto;
    margin-bottom: 80px;
+   
 }
 
 .team-hedding{
@@ -455,15 +457,25 @@ td{
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
+/* Section-6 Style */
+
+.section-6{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 80px
+}
 .team-member-container{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    padding: 30px;
+    column-gap: 0;
+    gap: 33px;
+    padding: 20px;
+    justify-items: center;
     
 }
 
@@ -474,18 +486,19 @@ td{
     width: 325px;
     height: 275px;
     border-radius: 18px;
-    /* Object-fit:none; */
-    /* Object-position: 68% 28%; */
+    
 }
 .trainer-img2{
     width: 327px;
     height: 275px;
     border-radius: 18px;
+    
 }
 .trainer-img3{
     width: 325px;
     height: 275px;
     border-radius: 18px;
+    
 }
 .trainer-img4{
     width: 325px;
@@ -496,18 +509,26 @@ td{
     width: 325px;
     height: 275px;
     border-radius: 18px;
+    
 }
 .trainer-img6{
     width: 325px;
     height: 275px;
     border-radius: 18px;
+     
 }
 
 
-.trainer-text{
-    color: aliceblue;
+.trainer-name{
+    color: rgb(255, 255, 255); 
+    font-size: 1.3rem;
+    font-weight: 700; 
+     
+}
+.trainer-role{
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
-    font-weight: 500;
+    width: 400;
 }
 .team-id{
     position: absolute;
@@ -618,6 +639,7 @@ banner-photo-card-container{
     /* margin-right: 500px; */ 
 }
 
+
 .movments-container{
     grid-template-columns: repeat(1 , 1fr);
     gap: 10px;
@@ -674,9 +696,21 @@ banner-photo-card-container{
     padding: 18px 65px;
     font-size: 1.1rem;
 }
-
-
-
+.team-disc{
+    width: 310px;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.section-6{
+    padding: 20px;
+    padding-top: 0;
+}
+.team-member-container{
+    grid-template-columns: repeat(1 , 1fr);
+    margin-top: 0;
+    margin-bottom: 65px;
+   
+}
 
 
 
@@ -693,5 +727,8 @@ banner-photo-card-container{
 hr{
     width: 370px;
 }
+
+
+
 }
 
