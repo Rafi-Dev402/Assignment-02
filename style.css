@@ -216,8 +216,8 @@ main{
 .movments-container{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    
     justify-items: center;
+    
 }
 .movenent{
     width: 200px;
@@ -440,6 +440,7 @@ td{
 .section-5{
    max-width: 1440px;
    margin: 0 auto;
+   margin-bottom: 80px;
 }
 
 .team-hedding{
@@ -457,12 +458,70 @@ td{
     margin-bottom: 80px;
 }
 
+.team-member-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 30px;
+    
+}
 
-  
+.team-details{
+    position: relative;
+}
+.trainer-img1{
+    width: 325px;
+    height: 275px;
+    border-radius: 18px;
+    /* Object-fit:none; */
+    /* Object-position: 68% 28%; */
+}
+.trainer-img2{
+    width: 327px;
+    height: 275px;
+    border-radius: 18px;
+}
+.trainer-img3{
+    width: 325px;
+    height: 275px;
+    border-radius: 18px;
+}
+.trainer-img4{
+    width: 325px;
+    height: 275px;
+    border-radius: 18px;
+}
+.trainer-img5{
+    width: 325px;
+    height: 275px;
+    border-radius: 18px;
+}
+.trainer-img6{
+    width: 325px;
+    height: 275px;
+    border-radius: 18px;
+}
+
+
+.trainer-text{
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.team-id{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+
+
+
+
+
 
 
 /* Footer Styles */
-
 footer{
    
     background-color: rgb(24, 24, 24);
@@ -497,7 +556,7 @@ footer{
     margin-bottom: 40px;
 }
 .sub-desc{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 18px;  
